@@ -51,7 +51,7 @@ body {
   gap: 30px;
 
   box-sizing: border-box;
-  width: 375px;
+  width: 360px;
   height: 100vh;
   background-color: var(--calc-bg-color);
 
