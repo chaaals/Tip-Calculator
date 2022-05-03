@@ -1,4 +1,4 @@
-# Live-server:
+# Live-demo:
 https://chaaals.github.io/Tip-Calculator/
 # Frontend Mentor - Tip calculator app
 
