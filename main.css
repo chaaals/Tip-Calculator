@@ -236,6 +236,16 @@ a:link {
 
     margin: 10vh auto;
   }
+
+  .tip--form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tip--output {
+    height: 350px;
+  }
+
   .tip-btn-container {
     display: grid;
     align-items: center;
@@ -251,7 +261,7 @@ a:link {
     grid-template-columns: repeat(2, 1fr);
 
     width: 50%;
-    height: 330px;
+    height: 398px;
     border-radius: 10px;
   }
 
