@@ -82,7 +82,7 @@ const currencyFormat = (amount) =>
   }).format(amount);
 
 const calculateTip = function (bill = 0, percentage = 0, numOfPeople = 0) {
-  if (+numOfPeople === 0) {
+  if (+numOfPeople <= 0) {
     // shows error message
     numPeopleInput.style.border = `2px solid rgba(255, 0, 0, .5)`;
     errorMsg.style.opacity = 1;
