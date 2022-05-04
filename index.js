@@ -107,6 +107,7 @@ resetBtn.addEventListener("click", function () {
   if (!numOfPeople) return;
 
   initValues();
+  allBtns.forEach((btn) => btn.classList.remove("active"));
 
   billInput.value = "";
   numPeopleInput.value = "";
