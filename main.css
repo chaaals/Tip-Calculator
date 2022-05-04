@@ -224,6 +224,7 @@ a:link {
 
 @media screen and (min-width: 1440px) {
   .splitter-title {
+    letter-spacing: 8px;
     margin-bottom: 30px;
     font-size: 0.8rem;
   }
@@ -234,7 +235,7 @@ a:link {
     align-items: center;
     justify-content: center;
 
-    margin: 10vh auto;
+    margin: 15vh auto;
   }
 
   .tip--form {
@@ -243,7 +244,7 @@ a:link {
   }
 
   .tip--output {
-    height: 350px;
+    height: 320px;
   }
 
   .tip-btn-container {
@@ -261,8 +262,8 @@ a:link {
     grid-template-columns: repeat(2, 1fr);
 
     width: 50%;
-    height: 398px;
-    border-radius: 10px;
+    height: 370px;
+    border-radius: 20px;
   }
 
   .attribution {
@@ -271,6 +272,9 @@ a:link {
 
   .reset-button {
     align-self: end;
+  }
+  .attribution {
+    display: none;
   }
 }
 
