@@ -194,7 +194,6 @@ a:link {
   justify-content: space-between;
 }
 
-.active,
 .reset-button {
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -204,19 +203,31 @@ a:link {
   color: var(--neutral-color1);
 
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .reset-button {
   background-color: rgba(38, 192, 171, 0.3);
 }
+
+.active {
+  font-size: 1.2rem;
+  border: none;
+  color: var(--neutral-color1);
+
+  border-radius: 10px;
+}
+
 .active {
   background-color: var(--primary-color);
 }
 
 @media screen and (min-width: 1440px) {
   .splitter-title {
+    margin-bottom: 30px;
     font-size: 0.8rem;
   }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -225,12 +236,22 @@ a:link {
 
     margin: 10vh auto;
   }
+  .tip-btn-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
   .tip-calc {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
     width: 50%;
-    height: 380px;
+    height: 330px;
     border-radius: 10px;
   }
 
@@ -241,4 +262,21 @@ a:link {
   .reset-button {
     align-self: end;
   }
+}
+
+/* Error message fix */
+
+.num-people-component {
+  position: relative;
+}
+
+.num-people-label {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+
+  font-size: 0.8rem;
+  color: rgba(255, 0, 0, 0.5);
+
+  opacity: 0;
 }

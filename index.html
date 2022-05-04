@@ -41,6 +41,7 @@
               class="bill--input form--input"
               type="number"
               style="text-align: right"
+              placeholder="0"
               id="bill--input"
             />
           </div>
@@ -64,12 +65,14 @@
           </div>
 
           <div class="num-people-component">
-            <label for="num--people">Number of People</label><br />
+            <label for="num--people">Number of People</label
+            ><a class="num-people-label" href="#">Can't be zero</a><br />
 
             <input
               class="num--people form--input"
               type="number"
               style="text-align: right"
+              placeholder="0"
               id="num--people"
             />
           </div>
@@ -83,7 +86,7 @@
             </div>
 
             <div class="tip-amount-value">
-              <h2>$0.00</h2>
+              <h2 class="tip-amount">$0.00</h2>
             </div>
           </div>
 
@@ -93,7 +96,7 @@
               <p>/ person</p>
             </div>
             <div class="total-person-value">
-              <h2>$0.00</h2>
+              <h2 class="total-person">$0.00</h2>
             </div>
           </div>
           <button class="reset-button">Reset</button>
@@ -108,5 +111,6 @@
       </section>
     </div>
     <!-- Header section -->
+    <script src="index.js"></script>
   </body>
 </html>
