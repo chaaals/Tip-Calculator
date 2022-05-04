@@ -22,6 +22,7 @@ let numOfPeople = 0;
 let totalAmount = 0;
 let tipAmount = 0;
 
+// for reset
 const initValues = () => {
   bill = 0;
   percentage = 0;
